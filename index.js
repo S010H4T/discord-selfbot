@@ -24,11 +24,11 @@ const modules = ['hack', 'moderation', 'util', 'nsfw', 'fun', 'presence', 'help'
 
 bot.on("ready", () => {
   console.log("----------------------------".grey)
-  console.log("Id de l'utilisateur:".underline.white + ` ${bot.user.id}`)
-  console.log("Tag de l'utilisateur:".underline.white + ` ${bot.user.tag}`)
+  console.log("ID:".underline.white + ` ${bot.user.id}`)
+  console.log("Tag:".underline.white + ` ${bot.user.tag}`)
   console.log("Prefix:".underline.white + ` ${config.prefix}`)
-  console.log("Nombre de serveurs:".underline.white + ` ${bot.guilds.size}`)
-  console.log("Nombre d'amis:".underline.white + ` ${bot.user.friends.size}`)
+  console.log("Servers count:".underline.white + ` ${bot.guilds.size}`)
+  console.log("Friends count:".underline.white + ` ${bot.user.friends.size}`)
   console.log("E-Mail:".underline.white + ` ${bot.user.email}`)
   console.log("----------------------------".grey)
   console.log(" ")
