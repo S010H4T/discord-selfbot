@@ -1,0 +1,15 @@
+{
+        "token": "TOKEN HERE",
+	"logchannelid": "LOG CHANNEL ID HERE (BETA)",
+	"chloggerwhid": "(BETA)",
+	"rpcid": "637039511691591682",
+	"rpcimgname": "nz",
+	"defaultstatus": "dnd",
+	"cstatusonstart": "false",
+	"prefix": "nz!",
+	"channellogger": "enable",
+	"txtlogger": "enable",
+	"terminallogger": "enable",
+	"selfbotname": "Exemple",
+	"twitch": "discord"
+}
